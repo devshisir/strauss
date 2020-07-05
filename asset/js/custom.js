@@ -22,8 +22,9 @@ $(document).ready(function() {
             1000:{
                 items:4
             },
-            1400:{
+            1500:{
                 margin:20,
+                items:4,
             }
         }
     })
