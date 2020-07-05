@@ -120,6 +120,9 @@
     #quote_1 {
         padding: 100px 0px;
     }
+    #blog .blog_main_slider .blog_item {
+        min-height: 616px;
+    }
 
 
 
