@@ -1,11 +1,142 @@
 @media (min-width: 1400px) and (max-width: 5000px) {
+    #header_top {
+        padding: 22px 0px;
+        height: 84px;
+    }
     #banar_area{
         height: 780px;
     }
     #expertise .expertise_left p {
         width: 100%;
     }
-    
+    #banar_area .banar_area_content h3 {
+        font-size: 80px;
+        font-weight: 300;
+        line-height: 80px;
+    }
+    #banar_area .banar_area_content a {
+        padding: 0px;
+        font-size: 18px;
+        height: 64px;
+        width: 280px;
+        text-align: center;
+        line-height: 65px;
+        font-weight: 700;
+    }
+    #banar_bottom .banar_bottom_item {
+        padding: 80px 38px;
+        min-height: 441px;
+    }
+    #banar_bottom .banar_bottom_item h3 {
+        font-size: 20px;
+        margin-top: 28px;
+        margin-bottom: 36px;
+    }
+    #expertise {
+        padding-bottom: 87px;
+    }
+    #expertise #expertise_image {
+        height: 76%;
+    }
+    #tab_area .tab_left_button .nav-tabs .nav-item {
+        padding: 23px 16px;
+        padding-top: 9px;
+        padding-bottom: 23px;
+        margin-bottom: -5px;
+    }
+    #tab_area .tab_main_content .tab_main_content_content .tab_main_content_top .tab_main_content_top_info h3 {
+        font-size: 32.5px;
+    }
+    #custom_solution .custom_solution_title h3 {
+        font-size: 45px;
+    }
+    #custom_solution .custom_solution_item span {
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+    }
+    #custom_solution .custom_solution_item p {
+        font-size: 13px;
+        margin-top: 14px;
+        line-height: 25px;
+    }
+    #custom_solution .custom_solution_item a {
+        padding: 0px;
+        font-size: 18px;
+        width: 248px;
+        height: 64px;
+        line-height: 64px;
+    }
+    #blog .blog_top_title h3 {
+        font-size: 45px;
+    }
+    #blog .blog_top_title p {
+        font-size: 26px;
+    }
+    #blog .blog_main_slider .blog_item .blog_item_content {
+        padding: 50px 55px;
+    }
+    #blog .blog_main_slider .blog_item .blog_item_content h4 {
+        font-size: 16px;
+    }
+    #blog .blog_main_slider .blog_item .blog_item_content a.title_lik {
+        line-height: 26px;
+    }
+    #cleint_area .cleint_area_top h3 {
+        font-size: 45px;;
+    }
+    #cleint_area .cleint_area_top p {
+        font-size: 26px;
+        width: 69%;
+        margin: 0 auto;
+        margin-top: 14px;
+        line-height: 40px;
+    }
+    #testmonial .testmonial_top_left h3 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    #testmonial .testmonial_slider_main .testmonial_slider_active .testmonial_slider_item {
+        padding: 90px 65px;
+    }
+    #testmonial .testmonial_slider_main .testmonial_slider_active .testmonial_slider_item span img {
+        margin-right: 24px;
+        height: auto;
+    }
+    #testmonial .testmonial_slider_main .testmonial_slider_active .testmonial_slider_item h4 {
+        margin-top: 30px;
+    }
+    #testmonial .testmonial_slider_main .testmonial_slider_active {
+        left: 100px;
+    }
+    #quote_1 .quote_1_content a {
+        margin-top: 36px;
+        padding: 0px;
+        font-size: 18px;
+        height: 64px;
+        width: 248px;
+        line-height: 64px;
+    }
+    #quote_1 {
+        padding: 100px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

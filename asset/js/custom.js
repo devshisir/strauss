@@ -21,6 +21,9 @@ $(document).ready(function() {
             },
             1000:{
                 items:4
+            },
+            1400:{
+                margin:20,
             }
         }
     })
