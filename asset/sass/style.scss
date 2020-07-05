@@ -82,6 +82,16 @@ a{
     }
 }
 
+header#header_top.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999999999;
+    box-shadow: 0px 0px 23px rgba(0,0,0,0.1);
+}
+
 // banar_area
 #banar_area{
     height: 100vh;
@@ -109,6 +119,7 @@ a{
             font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             border-radius: 2px;
+            font-weight: 600;
             &:hover{
                 transform: translateY(-4px);
                 box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -176,6 +187,7 @@ a{
         z-index: -1;
     }
     .expertise_left{
+        transition: 0.5s;
         h3{
             font-size: 45px;
             color: #333333;

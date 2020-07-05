@@ -3,7 +3,7 @@ $(document).ready(function() {
     var page = $('html, body');
     
     
-
+    new WOW().init();
 
 
     
@@ -22,7 +22,7 @@ $(document).ready(function() {
             1000:{
                 items:4
             },
-            1500:{
+            1400:{
                 margin:20,
                 items:4,
             }
@@ -49,7 +49,14 @@ $(document).ready(function() {
         }
     })
 
-
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100){  
+            $('#header_top').addClass("animated slideInDown fix");
+        }
+        else{
+            $('#header_top').removeClass("animated slideInDown fix");
+          }
+        });
 
 
 
